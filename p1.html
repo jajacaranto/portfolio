@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e8b922737.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h4>PORTFOLIO</h4>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="main-img">
+                <img src="IMG_4326f 2x2.jpg" class="image">
+            </div>
+            <div class="header-text">
+
+                <h1>Hi I'm <span>Jaja</span> Caranto<br></h1>
+                <p>Showcasing my creative journey and passion through design and innovation.<br>"Junior Full Stack Web
+                    Developer"</p>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_4598.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, My name is Joanna Marie Caranto. I recently completed a Coding bootcamp at Uplift Code Camp
+                        for Full-stack web development. As a passionate career shifter with a newfound love for web
+                        development, I'm embarking on an exciting journey of learning, coding, and creating. My
+                        commitment to problem-solving and my eagerness to embrace new challenges drive my pursuit of
+                        crafting engaging and functional web experiences. Join me as I transform my passion into pixels,
+                        one line of code at a time. When I'm not coding i usually spend time playing online computer
+                        games, watching netflix and chill.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Moldex Realty Inc.</span><br>August 2022 - April 2023<br>Sales Manager<br>Moldex
+                                Building, 3 Ligaya St, corner West Ave, Quezon City, 1104</li>
+                            <li><span>Chubb Business Solution</span><br>(April 2019 - October 2019)<br>Customer
+                                Service<br>1550 Sheridan, Mandaluyong, Metro Manila</li>
+                            <li><span>Altisource Business Solutions</span><br>(September 2016 - April
+                                27,2018)<br>Property Preservatio<br>4/f Two E-com Building, Harbor Drive MOA Complex,
+                                Pasay</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Tertiary</span><br>University of Perpetual Help Laguna System 2005 - 2008<br>Hotel
+                                and Restaurant Management<br>Biñan Laguna</li>
+                            <li><span>Secondary</span><br>Carmona National High School 2001- 2005<br>Carmona Cavite</li>
+                            <li><span>Primary</span><br>Colegio De San Jose 1995 - 2001<br>Carmona Cavite</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------- services ---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML/CSS</h2>
+                    <p>"Proficient in HTML and CSS:
+                        Expertise in crafting clean and semantically structured web pages using HTML, and enhancing
+                        their visual appeal and layout through CSS. Adept at creating responsive designs and ensuring
+                        cross-browser compatibility for a seamless user experience."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>"JavaScript Proficiency:
+                        Skilled in JavaScript programming with a focus on creating interactive and dynamic web
+                        applications. Capable of leveraging JavaScript frameworks and libraries to enhance user
+                        experiences and solve complex challenges in web development."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React</h2>
+                    <p>I specialize in React, the dynamic library that powers some of the most interactive and
+                        user-friendly web experiences. With a passion for crafting responsive and engaging web
+                        applications, I bring life to designs and deliver seamless user interfaces. Let's build the
+                        future of the web together, one component at a time.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------portfolio---------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpeg">
+                    <div class="layer">
+                        <h3>Dictionary App</h3>
+                        <p>The app connects you to talented people aroud the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Button Loading Animation App</h3>
+                        <p>The app connects you to talented people aroud the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Memory App</h3>
+                        <p>The app connects you to talented people aroud the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> caranto.jaja@yahoo.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 09176573321</p>
+                    <div class="social-icons">
+                        <a href="https://wwww.facebook.com/jaja.caranto/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/jajacaranto/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="linkedin.com/in/joanna-marie-caranto-21155124b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://gitlab.com/JajaC"><i class="fa-brands fa-gitlab"></i></a>
+                    </div>
+                    <a href="My CV.pdf" download class="btn btn2">Dowload CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2023 by Jaja Caranto. Made with <i class="fa-solid fa-heart"></i> | All Rights Reserved</p>
+        </div>
+
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-_ss3-ngKLBjMgKluGHnKmYroUrwj3816Gzh6_SwgbcojDKhYNs4O-qtKpp8bcsY1Hg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
